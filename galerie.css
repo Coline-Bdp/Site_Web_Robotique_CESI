@@ -1,0 +1,58 @@
+body{
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: 300;
+    line-height: 1.6em;
+    font-style: initial;
+    background-color: white;
+    color: #C7C7C7;
+    display: flex;
+    flex-flow: column;
+    align-items:center;
+    background-image: url("https://cdn.pixabay.com/photo/2019/05/15/15/47/technology-4205276_1280.jpg");
+    margin:0;
+}
+
+#cross_close {
+    width: 1.5em;
+    height: 1.5em;
+    margin-left: 4%;
+}
+
+/*Définition de l'aspect des fenêtres*/
+.screen_aspect {
+    background-color: #1E1E1E;
+    height: 45em;
+    width: 90%;
+    display: flex;
+    flex-flow: column;
+}
+
+.top_tabs {
+    background-color: #4a4a4b;
+    height: 2.5em;
+    border-bottom : #4a4a4b solid 2px;
+}
+
+.active_tab {
+    background-color: #1E1E1E;
+    width: 25%;
+    height: 100%;
+    display: flex;
+    flex-flow: row;
+    justify-content: center;
+    text-align: center;
+    padding-top: 0.7%;
+    font-weight:bolder;
+}
+
+.image1{
+    margin-left:1em;
+    margin-top:1em;
+    display: flex;
+    flex-flow: row;
+    
+}
+
+.image{
+    margin:2em;
+}
