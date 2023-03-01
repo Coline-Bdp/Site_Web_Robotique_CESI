@@ -1,0 +1,76 @@
+body { 
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: 300;
+    line-height: 1.6em;
+    font-style: initial;
+    background-color: white;
+    color: #C7C7C7;
+    display: flex;
+    flex-flow: column;
+    align-items:center;
+    background-image: url("https://cdn.pixabay.com/photo/2019/05/15/15/47/technology-4205276_1280.jpg");
+    margin:0;
+}
+
+
+.blank {
+    margin : 1em;
+}
+
+#cross_close {
+    width: 1.5em;
+    height: 1.5em;
+    margin-left: 4%;
+}
+
+/*Définition de l'aspect des fenêtres*/
+.screen_aspect {
+    background-color: #1E1E1E;
+    height: 13.5em;
+    width: 80%;
+    display: flex;
+    flex-flow: column;
+}
+
+.top_tabs {
+    background-color: #4a4a4b;
+    height: 2.5em;
+    border-bottom : #4a4a4b solid 2px;
+}
+
+.active_tab {
+    background-color: #1E1E1E;
+    width: 25%;
+    height: 100%;
+    display: flex;
+    flex-flow: row;
+    justify-content: center;
+    text-align: center;
+    padding-top: 0.7%;
+    font-weight:bolder;
+}
+
+.container_text {
+    margin-left: 50%;
+    display: flex;
+    flex-flow: row;
+}
+
+.event{
+    display: flex;
+    flex-flow: row;
+    margin-left: 5em;
+    margin-right: auto;
+    margin-bottom: 6em;
+
+}
+
+.description{
+    display: flex;
+    flex-flow: column;
+    background-color: #317AC1;
+    margin-left:3em;
+    vertical-align: middle;
+    width: 50%;
+    padding-left:2em;
+}
