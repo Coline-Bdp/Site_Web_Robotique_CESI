@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="fr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="accueil.css" />
+    <link rel="stylesheet" href="header.css" />
+    <script src="header.js" defer></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com"> 
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin> 
+    <link href="https://fonts.googleapis.com/css2?family=Source+Code+Pro:wght@300&family=Ubuntu:wght@300;400&display=swap" rel="stylesheet">
+    <title>Accueil</title>
+  </head>
+
+
+    <header>
+      <div class="hamburger">
+        <div class="picture">
+          <img
+            src="icons8-menu-arrondi-50.png"
+            alt="Menu hamburger"
+            id="pic_hamburger"
+          />
+        </div>
+        <nav id="navigation">
+          <ul>
+            <li>Accueil</li>
+            <li>Qui sommes-nous ?</li>
+            <li>News</li>
+            <li>Projets</li>
+            <li id="event">
+              Évènements
+              <img
+                src="icons8-chevron-droit-30.png"
+                alt="Chevron ouvert"
+                id="open"
+              />
+            </li>
+            <ul id="submenu_display">
+              <li>Sous évènements</li>
+              <li>Évènements à venir</li>
+            </ul>
+            <li>Contacts</li>
+            <li>Galerie</li>
+            <li>Bonus</li>
+          </ul>
+        </nav>
+      </div>
+
+      <div class="club_cesi">
+        <img src="icons8-robotique-64.png" class="logo" />
+        <div>CLUB ROBOTIQUE CESI</div>
+      </div>
+
+      <div class="research_pad">
+        <input class="champ" type="text" placeholder="Recherche" />
+        <button class="btn_ok">OK</button>
+      </div>
+    </header>
+
+    <body>
+    <div class="screen_aspect">
+      <div class="top_tabs">
+        <div class="active_tab">
+          Qui sommes nous ?
+          <img src="icons8-multiplier-50.png" id="cross_close" />
+        </div>
+        <div class="inactive_tab"></div>
+      </div>
+      <div class="container_text">
+        <p>
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur
+          dictum dui vel odio egestas, at suscipit metus semper. Nullam non arcu
+          nunc. Nulla facilisi. Class aptent taciti sociosqu ad litora torquent
+          per conubia nostra, per inceptos himenaeos. Aliquam vel elementum
+          lorem, quis congue ligula. Vivamus ac nunc sed justo malesuada
+          iaculis. Aenean at risus libero. Vestibulum id tempor justo. Donec sed
+          mi elit. Morbi tristique sapien quis tortor tempus, nec cursus dui
+          accumsan. Fusce ultricies pellentesque ullamcorper. Duis ultrices at
+          eros a dictum. Vestibulum risus est, pretium ut enim sed, suscipit
+          maximus nulla. Donec posuere nibh et massa congue scelerisque.
+        </p>
+      </div>
+    </div>
+
+    <div class="blank"></div>
+
+    <div class="screen_aspect">
+      <div class="top_tabs">
+        <div class="active_tab">
+          Prochain évènement
+          <img src="icons8-multiplier-50.png" id="cross_close" />
+        </div>
+        <div class="inactive_tab"></div>
+      </div>
+      <div class="container_text">
+        <div class="pic_event">
+          <img src="robot-gfd4bc89ee_1920.png" id="pic_event_recent" />
+        </div>
+        <div class="event_present">
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse
+            venenatis magna nulla, feugiat egestas ligula venenatis sit amet.
+            Pellentesque volutpat, dolor id sollicitudin semper, turpis tortor
+            consectetur elit, vel luctus. Lorem ipsum dolor sit amet,
+            consectetur adipiscing elit. Suspendisse venenatis magna nulla,
+            feugiat egestas ligula venenatis sit amet. Pellentesque volutpat,
+            dolor id sollicitudin semper, turpis tortor consectetur elit, vel
+            luctus.
+          </p>
+        </div>
+        <div class="date_place_event">
+          <p>Brest</p>
+          <p>03/04/2023</p>
+        </div>
+      </div>
+    </div>
+
+    <!-- Insérer ici le php pour le footer -->
+  </body>
+</html>
